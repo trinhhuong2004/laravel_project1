@@ -1,0 +1,163 @@
+.error-massage{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+}
+input::placeholder{
+    font-size: 13px ;
+}
+.text-right .mr-2{
+    margin-right: 10px;
+}
+.uk-flex-space-between{
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.uk-flex-middle{
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.uk-flex{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.filter-wrapper{
+    margin-bottom: 20px;
+}
+.filter-wrapper .perpage{
+    display: inline-block;
+}
+.btn{
+    margin-bottom: 0;
+    font-size: 13px;
+    border-radius: 0;
+    height: 32px;
+}
+.filter-wrapper .form-control{
+    height: 30px;
+    max-width: 200px;
+}
+.filter-wrapper .uk-search .form-control{
+    width: 200px;
+    height: 32px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.btn-create button{
+    margin-left: 7%;
+    padding: 3px;
+    border-radius: 3px;
+}
+.radio-info input[type="radio"]:checked + label::before {
+    border-color: #5bc0de;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+}
+
+.form-control {
+    padding-left: 2.5rem; /* Khoảng cách từ bên trái để tạo không gian cho biểu tượng và ảnh */
+    width: 100%;
+    height: 3.5rem; /* Chiều cao của ô nhập liệu */
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.input-container input[type="file"] {
+    margin-left: 55px; /* Khoảng cách giữa ô nhập liệu và ảnh */
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px; /* Khoảng cách từ trái */
+    font-size: 3.5rem;
+    color: #aaa; /* Màu của biểu tượng */
+    pointer-events: none; /* Để không chặn sự kiện click */
+}
+.input-container img {
+    position: absolute;
+    left: 10px; /* Khoảng cách từ trái */
+    width: 3.7rem; /* Chiều rộng của ảnh */
+    height: 3rem; /* Chiều cao của ảnh */
+    object-fit: cover; /* Cắt ảnh để giữ tỷ lệ */
+    border-radius: 5%; /* Tạo kiểu tròn cho ảnh */
+    /* Ẩn ảnh ban đầu */
+}
+
+.form-group p {
+    margin-bottom: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: nowrap; /* Không cho các ảnh xuống hàng */
+    overflow-x: auto; /* Thêm thanh cuộn ngang nếu cần */
+}
+
+.image-gallery img {
+    margin-top: 6px;
+    width: 50px; /* Chiều rộng của ảnh */
+    height: 30px; /* Chiều cao của ảnh */
+    object-fit: cover; /* Cắt ảnh để giữ tỷ lệ */
+    margin-right: 10px; /* Khoảng cách giữa các ảnh */
+}
+.ibox-title {
+    margin-top: 1rem;
+}
+
+.ibox-title p a {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.custom-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-table td {
+    padding: 0.5rem;
+    vertical-align: middle;
+}
+
+.image-preview {
+    width: 50px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-control {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 60px); /* Adjust width to fit next to the image */
+}
+
+.delete-icon {
+    color: #ff0000;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.delete-icon:hover {
+    background-color: #ffcccc;
+}
